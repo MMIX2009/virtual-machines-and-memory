@@ -2,11 +2,11 @@ import streamlit as st
 
 # Title of the app
 st.title("Memory Hierarchy and Virtualization Quiz")
-st.write("Test your understanding of CPU design, MIPS datapath, and control signals!")
+st.write("Memory Hierarchy Mastery: Test Your Knowledge of Virtual Machines, Memory Systems, and Cache Coherence")
 
 # Initialize session state variables if they don’t exist
 if "score" not in st.session_state:
-    st.session_state.score = 0
+    st.session_state.score = 0https://github.com/MMIX2009/virtual-machines-and-memory/tree/main
 
 if "question_index" not in st.session_state:
     st.session_state.question_index = 0
