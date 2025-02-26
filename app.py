@@ -6,7 +6,7 @@ st.write("Memory Hierarchy Mastery: Test Your Knowledge of Virtual Machines, Mem
 
 # Initialize session state variables if they don’t exist
 if "score" not in st.session_state:
-    st.session_state.score = 0https://github.com/MMIX2009/virtual-machines-and-memory/tree/main
+    st.session_state.score = 0
 
 if "question_index" not in st.session_state:
     st.session_state.question_index = 0
